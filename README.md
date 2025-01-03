@@ -1,0 +1,3 @@
+This repository demonstrates a common ActionScript error: IndexOutOfBounds.  The error occurs when attempting to access an array element using an index that is out of the valid range.  ActionScript arrays are zero-indexed, meaning the first element is at index 0, and the last element is at index array.length - 1. Accessing myArray[myArray.length] always results in an error because there is no element at that index.
+
+The `bug.as` file shows the erroneous code, while `bugSolution.as` provides a corrected version.
